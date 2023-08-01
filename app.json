@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#89C53F"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,16 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#89C53F"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ]
   }
 }

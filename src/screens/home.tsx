@@ -43,7 +43,7 @@ const Home = () => {
         style={{ width: 66, height: 50 }}
       />
       <View style={styles.box}>
-        <Text style={styles.header}>Leitura da NFCe ou NFe</Text>
+        <Text style={styles.header}>Leitura da NFCe ou NFe agora</Text>
         <Text style={styles.description}>
           Agora você deve realizar a leitura da nota fiscal clicando no botão
           abaixo.
